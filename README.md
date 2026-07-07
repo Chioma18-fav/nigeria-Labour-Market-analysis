@@ -60,6 +60,7 @@ Formal employment varied across Nigeria's geopolitical zones in every survey qua
 Despite these differences, the overall pattern remained largely unchanged across all four quarters. Even in the highest-performing regions, formal employment remained relatively low, while informal and insecure forms of employment continued to dominate the labour market. This indicates that the challenge is national rather than regional.
 
 The findings suggest that regional differences exist, but they are relatively small when viewed against the broader structural shortage of formal employment across the country.
+
 ## Education and Business Registration
 
 Among self-employed individuals, business registration increased with educational attainment across all four survey quarters. Individuals with higher levels of education were consistently more likely to operate registered businesses than those with lower educational attainment.
