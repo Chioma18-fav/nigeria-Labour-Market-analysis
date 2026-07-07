@@ -38,7 +38,10 @@ Among business owners, individuals with higher levels of education were more lik
 Overall, the findings indicate that Nigeria's labour market challenges cannot be explained by a single factor. While education, age, and geographical location all influence labour market outcomes, the persistently low levels of formal employment across the country point to a broader shortage of quality employment opportunities. The findings also highlight the need to encourage business registration through greater awareness and simpler registration processes, while expanding access to decent jobs capable of absorbing Nigeria's growing workforce.
 
 ## Dashboard Highlights
+
 The interactive dashboard summarizes the key labour market indicators across the four survey quarters using survey-weighted estimates. At a glance, users can explore the size of the working-age population represented by the survey, together with the proportions of workers in formal, informal, and precarious employment. Interactive filters also allow comparisons across quarters and demographic groups.
+
+![KPI](images/IMG_20260707_120051_286.PNG)
 
 ## Insights
 
