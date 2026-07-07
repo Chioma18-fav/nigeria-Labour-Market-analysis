@@ -68,6 +68,7 @@ Among self-employed individuals, business registration increased with educationa
 Nevertheless, registered businesses represented only a small proportion of all businesses, indicating that a large share of business owners continue to operate outside the formal regulatory system. This suggests that educational attainment alone is insufficient to achieve widespread business formalization.
 
 The consistency of this relationship across the survey quarters highlights the potential value of combining awareness campaigns, simplified registration procedures, and business support initiatives to improve formal business participation.
+![business registration](images/IMG_20260707_120035_562.PNG)
 
 ### Labour Market Trends Across Survey Quarters
 
