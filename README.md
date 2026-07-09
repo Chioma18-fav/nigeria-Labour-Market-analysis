@@ -6,7 +6,7 @@ Survey-weighted analysis of Nigeria's labour market using the Nigeria Labour For
 
 The Nigeria Labour Force Survey (NLFS), published by the National Bureau of Statistics (NBS), is Nigeria's primary source of information on employment, education, occupations, business activities, and other labour market characteristics.
 
-This project was undertaken to examine the structure of Nigeria's labour market and identify the demographic, educational, occupational, business, and regional factors associated with employment outcomes. The objective was to transform the NLFS microdata into meaningful labour market insights that can support evidence-based policymaking, workforce planning, and future labour market research.
+This project was undertaken to examine the structure of Nigeria's labour market and identify how demographic, educational, business, and regional characteristics are associated with labour market participation, occupational distribution, and business registration. The objective was to transform the NLFS microdata into meaningful labour market insights that can support evidence-based policymaking, workforce planning, and future labour market research.
 
 To achieve this, the project analyzed four consecutive survey quarters (Q3 2024 to Q2 2025), developed survey-weighted labour market indicators, validated selected findings using appropriate statistical methods, and presented the results through an interactive Power BI dashboard.
 
@@ -29,37 +29,57 @@ The final analytical dataset was then used for survey-weighted statistical analy
 
 ## Executive Summary
 
-Analysis of the Nigeria Labour Force Survey reveals that Nigeria's labour market is characterized by persistently low levels of formal employment across demographic, educational, occupational, and regional groups. While higher educational attainment is associated with improved access to formal employment, formal employment remains low even among the most educated groups, with the majority of workers still engaged in informal, precarious (casual work, unemployment, and other forms of unstable labour market participation) forms of work.
+Analysis of the Nigeria Labour Force Survey reveals that Nigeria's labour market remained largely stable across the four survey quarters analysed. Most workers were employed in medium-skill occupations, including clerical, sales, agricultural, craft, and machine operation jobs, while low-skill occupations, largely elementary occupations, also accounted for a substantial share of employment. In contrast, high-skill occupations, comprising managers, professionals, and technicians, represented only a relatively small proportion of the workforce throughout the survey period.
 
-The analysis also reveals clear differences in labour market outcomes across age groups, occupations, education levels, and geopolitical regions. Although some regions recorded slightly higher levels of formal employment than others, no region consistently achieved high levels of formal employment, indicating that labour market challenges are structural rather than location-specific.
+Individuals with higher educational attainment were more likely to work in high-skill occupations and, among business owners, were also more likely to operate registered businesses. However, workers across all educational levels continued to be concentrated largely in medium- and low-skill occupations. This suggests that while education improves labour market prospects, expanding access to more high-skill employment opportunities is equally important if educational attainment is to translate into better employment outcomes.
 
-Among business owners, individuals with higher levels of education were more likely to operate registered businesses. However, business registration remained relatively low overall, suggesting that many businesses continue to operate outside the formal regulatory system.
+Differences were also observed across age groups and geopolitical zones. Young people aged 15–24 recorded the lowest participation in high-skill occupations, while older age groups were more represented in these occupations. Although work experience may partly contribute to this pattern, expanding internships, graduate trainee programmes, apprenticeships, and other school-to-work transition opportunities may help young people gain the practical experience needed to improve access to skilled occupations. Across regions, some geopolitical zones recorded slightly higher proportions of high-skill occupations than others, but the overall occupational structure remained broadly similar, suggesting that improving access to skilled employment is a nationwide challenge rather than one limited to specific regions.
 
-Overall, the findings indicate that Nigeria's labour market challenges cannot be explained by a single factor. While education, age, and geographical location all influence labour market outcomes, the persistently low levels of formal employment across the country point to a broader shortage of quality employment opportunities. The findings also highlight the need to encourage business registration through greater awareness and simpler registration processes, while expanding access to decent jobs capable of absorbing Nigeria's growing workforce.
+Among business owners, individuals with higher educational attainment were more likely to operate registered businesses. Nevertheless, a large proportion of businesses remained unregistered, highlighting the need to encourage business formalisation through greater awareness, simplified registration processes, and policies that make formal registration more attractive to small business owners.
+
+Overall, the study suggests that improving labour market outcomes requires more than increasing educational attainment alone. Alongside investments in education, greater emphasis should be placed on expanding skilled employment opportunities, strengthening the transition from education to work, encouraging business registration, and creating an environment where workers at different educational levels can access productive and rewarding employment.
 
 ## Dashboard Highlights
 
-The interactive dashboard summarizes the key labour market indicators across the four survey quarters using survey-weighted estimates. At a glance, users can explore the size of the working-age population represented by the survey, together with the proportions of workers in formal, informal, and precarious employment. Interactive filters also allow comparisons across quarters and demographic groups.
+The interactive dashboard provides an overview of Nigeria's labour market across the four survey quarters using survey-weighted estimates. It enables users to explore the size of the working-age population represented by the survey, examine employment patterns across demographic groups, and compare labour market outcomes between quarters using interactive filters.
 
-![KPI](images/IMG_20260707_120051_286.PNG)
+The dashboard also summarises workers into three broad employment categories created for this analysis:
+
+Formal – employees receiving wages and self-employed individuals operating registered businesses.
+Informal – employees without wages, unregistered self-employed workers, and dependent workers such as apprentices and household helpers.
+Precarious – a project-defined category representing workers in more vulnerable labour market situations, including casual workers, people temporarily absent from work during the survey reference week, and individuals without current employment.
+
+These categories provide a simplified view of employment conditions and complement the occupation-tier analysis presented throughout the dashboard.
+
+**Note:** Unless otherwise stated, all dashboard screenshots in this README are from **Q2 2025**, the most recent survey quarter included in this study. The interactive Power BI dashboard allows users to explore the same analyses across **Q3 2024, Q4 2024, Q1 2025, and Q2 2025**.
+
+![Dashboard](images/dashboard.png)
+
+![KPI](images/KPI-metrics.PNG)
 
 ## Insights
 
-### Education and Employment Formality
+### Education and Occupational Skill Distribution
 
-Educational attainment was consistently associated with access to formal employment across all four survey quarters. Individuals with higher levels of education generally recorded higher proportions of formal employment than those with lower educational attainment.
+Educational attainment was consistently associated with the type of occupations people held across all four survey quarters. Individuals with higher levels of education were more likely to be employed in high-skill occupations, such as managers, professionals, and technicians, while those with lower educational attainment were more concentrated in medium-skill occupations (including clerical, sales, agricultural, craft, and machine operation jobs) and low-skill occupations (elementary occupations).
 
-However, the improvement was relatively small. Even among individuals with tertiary education, formal employment remained a minority outcome, while informal and insecure forms of employment continued to account for the majority of workers. This suggests that although education improves labour market prospects, it is not sufficient on its own to overcome the structural shortage of quality jobs.
+Although the likelihood of working in high-skill occupations increased with educational attainment, high-skill jobs still accounted for only a relatively small proportion of total employment. Most workers, including many with higher levels of education, remained employed in medium- and low-skill occupations.
 
-The consistency of this pattern across all four quarters indicates that the relationship is persistent rather than a short-term labour market fluctuation.
+This pattern suggests that while education improves access to higher-skilled occupations, expanding the availability of skilled employment opportunities is equally important to ensure that educational attainment translates into better labour market outcomes.
 
-### Regional Differences in Employment Formality
+The consistency of this pattern across all four survey quarters suggests that the relationship remained stable throughout the survey period rather than being driven by short-term changes in the labour market.
 
-Formal employment varied across Nigeria's geopolitical zones in every survey quarter. The South West and South South consistently recorded the highest levels of formal employment, while other regions generally recorded lower proportions.
+![ocuupationeducationaldistribution](images/occupation-tier-education.png)
 
-Despite these differences, the overall pattern remained largely unchanged across all four quarters. Even in the highest-performing regions, formal employment remained relatively low, while informal and insecure forms of employment continued to dominate the labour market. This indicates that the challenge is national rather than regional.
+### Regional Differences in Occupational Skill Distribution
 
-The findings suggest that regional differences exist, but they are relatively small when viewed against the broader structural shortage of formal employment across the country.
+The distribution of occupational skill levels varied across Nigeria's geopolitical zones in every survey quarter. Some regions, particularly the South West and South South, recorded slightly higher proportions of workers in high-skill occupations, while other regions had relatively larger shares of workers in medium- and low-skill occupations.
+
+Despite these differences, the overall occupational structure remained broadly similar across all regions. Medium-skill occupations, including clerical, sales, agricultural, craft, and machine operation jobs, consistently accounted for the largest share of employment, while high-skill occupations remained a relatively small proportion of the workforce nationwide.
+
+Although regional differences were observed, they were modest compared with the overall similarity in occupational patterns across the country. This suggests that expanding access to high-skill employment is a national challenge rather than one confined to particular geopolitical zones.
+
+![regionaldifferences](images/region-occupation-tier.png)
 
 ## Education and Business Registration
 
@@ -68,35 +88,59 @@ Among self-employed individuals, business registration increased with educationa
 Nevertheless, registered businesses represented only a small proportion of all businesses, indicating that a large share of business owners continue to operate outside the formal regulatory system. This suggests that educational attainment alone is insufficient to achieve widespread business formalization.
 
 The consistency of this relationship across the survey quarters highlights the potential value of combining awareness campaigns, simplified registration procedures, and business support initiatives to improve formal business participation.
-![business registration](images/IMG_20260707_120035_562.PNG)
+![business registration](images/education-business-reg.png)
 
 ### Labour Market Trends Across Survey Quarters
 
-Labour Market Structure Remained Stable Across Survey Quarters
-The survey-weighted analysis shows that the overall structure of Nigeria's labour market remained remarkably stable throughout the four survey quarters analysed. Across every quarter, formal employment consistently accounted for only a small proportion of total employment, while informal and precarious forms of work continued to dominate the labour market.
+While the earlier analyses focused on how education, age, and region relate to occupational outcomes, this analysis provides a broader view of how the labour market evolved over the four survey quarters.
 
-Although small fluctuations were observed between quarters, the overall pattern remained largely unchanged, suggesting that the labour market challenges identified in this study are structural rather than temporary. The persistence of these trends across consecutive quarters indicates that the observed employment patterns are not isolated events but reflect broader characteristics of Nigeria's labour market.
+The survey-weighted results show that the overall composition of employment remained largely unchanged throughout the study period. Across every quarter, the project's precarious employment category accounted for the largest share of the labour force, while formal and informal employment represented much smaller proportions and changed very little between survey quarters. Although minor fluctuations were observed over time, the overall pattern remained remarkably consistent throughout the period covered by the survey.
 
-### Employment Outcomes Across Age Groups
+Although small fluctuations were observed between quarters, the overall pattern changed very little throughout the period covered by the survey. This consistency provides useful context for the occupation-tier analysis, suggesting that the relationships observed between education, occupation, age, and region were identified within a labour market whose overall structure remained relatively stable during the study period.
 
-Young Workers Face the Greatest Employment Challenges
+![trendacrossquarters](images/employment-trend-across-quarters.PNG)
 
-The age distribution reveals clear differences in employment outcomes across the labour force. Younger workers aged 15–24 recorded the lowest levels of formal employment and were more likely to be engaged in informal, casual, or other forms of insecure work.
+### Occupational Skill Distribution Acrosss Age Groups
 
-While access to formal employment improved slightly among older age groups, formal employment never became the dominant employment category, even during the peak working ages. Instead, informal and insecure employment continued to account for the majority of labour market participation across almost every age group.
+Young Workers Face the Greatest Barriers to High Skill Occupation
 
-These findings suggest that the labour market challenge extends beyond work experience alone. Although experience may improve employment prospects, the consistently low levels of formal employment across all age groups point to a broader shortage of quality employment opportunities capable of absorbing Nigeria's workforce.
+The age distribution reveals clear differences in the types of occupations held across the labour force. Workers aged 15–24 recorded the lowest participation in high-skill occupations such as managers, professionals, and technicians. Instead, they were more concentrated in medium-skill occupations, including clerical, sales, agricultural, craft, and machine operation jobs, as well as low-skill occupations such as elementary occupations.
+
+Participation in high-skill occupations generally increased among older age groups, suggesting that workers tend to move into more skilled occupations as they progress through their careers. However, high-skill occupations remained a minority across all age groups, with medium-skill occupations consistently accounting for the largest share of employment.
+
+While work experience may partly contribute to these patterns, expanding internships, graduate trainee programmes, apprenticeships, and other school-to-work transition opportunities may help young people gain the practical experience needed to access high-skill occupations earlier in their careers. At the same time, the relatively small share of high-skill occupations across all age groups suggests that increasing the availability of skilled employment opportunities is equally important.
+
+![age_groups](images/age-occupation-tier.png)
 
 ## Recommendations
 
-**Strengthen job creation for educated youths**
+**1. Expand access to high-skill employment opportunities**
 
-While higher educational attainment is associated with improved employment outcomes, many educated Nigerians remain outside formal employment. Expanding graduate employment programmes, internships, and private-sector partnerships could help bridge the transition from education to stable employment.
+The analysis shows that higher educational attainment is associated with greater participation in high-skill occupations. However, high-skill occupations remained a relatively small share of total employment across all educational levels. Creating more professional, technical, and managerial employment opportunities would help ensure that educational attainment translates into better occupational outcomes.
 
-**Promote business registration among small business owners**
+**2. Strengthen school-to-work transition programmes**
 
-The analysis suggests that education is associated with a greater likelihood of operating a registered business. Increasing awareness of the benefits of business registration and simplifying the registration process may encourage more informal businesses to formalise.
+Young people aged 15–24 recorded the lowest participation in high-skill occupations. Expanding internships, graduate trainee programmes, apprenticeships, and stronger partnerships between educational institutions and employers could help young people acquire the practical experience required to transition into skilled occupations earlier in their careers.
 
-**Target regional labour market interventions**
+**3. Promote business registration among small business owners**
 
-Although employment patterns differ across geopolitical zones, informal and precarious employment remain dominant nationwide. Policies should therefore be tailored to the specific labour market characteristics of each region rather than adopting a one-size-fits-all approach.
+Individuals with higher educational attainment were more likely to operate registered businesses. However, many businesses remained unregistered throughout the study period. Increasing awareness of the benefits of business registration, simplifying registration procedures, and improving access to government support for registered businesses may encourage greater participation in the formal business sector.
+
+**4. Develop region-specific workforce development strategies**
+
+Although differences in occupational patterns were observed across geopolitical zones, no region recorded a dominant share of high-skill occupations. Workforce development policies should therefore be tailored to the economic strengths and labour market needs of individual regions while also expanding access to skilled employment opportunities across the country.
+
+## Tools Used
+
+- **Python** – Data cleaning, data merging, feature engineering, and preprocessing.
+- **PostgreSQL** – Data storage, querying, and transformation.
+- **R** – Survey-weighted statistical analysis using Rao-Scott Chi-square tests.
+- **Power BI** – Interactive dashboard development and data visualization.
+
+## Author
+
+**Favour Nwani**
+
+Email: favournwani67@gmail.com
+
+LinkedIn: www.linkedin.com/in/nwani-favour-chioma-ab2426320
