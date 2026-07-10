@@ -52,7 +52,7 @@ Precarious – a project-defined category representing workers in more vulnerabl
 These categories provide a simplified view of employment conditions and complement the occupation-tier analysis presented throughout the dashboard.
 
 Download the Interactive Power BI dashboard:
-[Nigeria_Labor_Market_Analysis.pbix](Dashboard/Nigeria_Labor_Market_Analysis.pbix)
+[Nigeria_Labor_Market_Analysis.pbix](dashboard/Nigeria_Labor_Market_Analysis.pbix)
 
 **Note:** Unless otherwise stated, all dashboard screenshots in this README are from **Q2 2025**, the most recent survey quarter included in this study. The interactive Power BI dashboard allows users to explore the same analyses across **Q3 2024, Q4 2024, Q1 2025, and Q2 2025**.
 
